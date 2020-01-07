@@ -93,6 +93,9 @@ class Show(db.Model):
 # TODO Implement Show and Artist models, and complete all model relationships and properties, as a database migration.
 
 
+from add_initial_data import add_initial_data
+add_initial_data()
+
 #----------------------------------------------------------------------------#
 # Filters.
 #----------------------------------------------------------------------------#
